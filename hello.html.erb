@@ -1,0 +1,17 @@
+<h3>Demo#index</h3>
+<p>This is Hello, but not hello world!</p>
+
+<%= 1+1 %>
+<br />
+<% surya = "Surya Adtmaja" %>
+
+<h1> <%= "This is #{surya}" %> </h1><br />
+
+<% @total.each do |tot| %>
+<%	nomor = tot[0] %>
+<%	nama = tot[1] %>
+<%	bahasa = tot[2] %>
+	<%= "No #{nomor} Nama #{nama} sedang belajar #{bahasa}" %><br />
+
+
+<% end %>
